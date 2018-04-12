@@ -15,7 +15,7 @@ class ResourceOne(BaseResource):
 
     def get(self):
         time.sleep(1)
-        return {'name': 'Resource One', 'data': True}
+        return {'name': 'Resource One', 'data': 'Testing Wai'}
 
     def post(self):
         json_payload = request.json
