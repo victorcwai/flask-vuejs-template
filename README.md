@@ -80,6 +80,7 @@ The production server uses Gunicorn to serve the the Flask Application.
 This template works with Heroku out of the box. Just make sure you run `npm run build`
 before pushing it to your Heroku repository.
 
+Change API url to your server's address in `app/client/app/src/store/backend.js`
 
 ### Heroku deployment
 
